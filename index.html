@@ -6,19 +6,22 @@
     <title> Мой сайт</title>
     <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/main.css">
+
+    <link rel="stylesheet" type="text/css" href="/proxima-nova-web-fonts-master/fonts/folder/fonts.css" />
+
+    <link rel="stylesheet" type="text/css" href="/proxima-nova-web-fonts-master/fonts/folder/fonts.min.css" />
 </head>
 <body>
     <header>
         <h1>Добро пожаловать на мой сайт</h1>
         <p>Здесь вы найдете интересующую вас информацию</p>
-
     </header>
     <nav>
         <ul>
-            <li><a href="#about">О нас</a></li>
-            <li><a href="#services">Мои услуги</a></li>
-            <li><a href="#contacts">Контакты</a></li>
-
+            <li><a href="#about" class="obvodka">О нас</a></li>
+            <li><a href="#services" class="obvodka">Мои услуги</a></li>
+            <li><a href="#contacts" class="obvodka">Контакты</a></li>
+            <li><a href="#price" class="obvodka">Цены</a></li>
 
         </ul>
     </nav>
@@ -35,18 +38,35 @@
 
         <h2>Мои услуги</h2>
         <p>Я предлагаю вам дать мне денег,вы мне их даете</p>
-        <p>Мы можем вместе поиграть в Dota 2</p>
-        <img src="img/dota2.png" alt="Дота 2" id="dota2-img">
+        <div class="text-block">
+            <p>Мы можем вместе поиграть в Dota 2</p>
+            <img src="https://avatars.mds.yandex.net/i?id=0f1e77d6e791c4045094eb73c7eba8c83b72e471-8410613-images-thumbs&n=13" alt="Дота 2" id="dota2-img">
+        </div>
         <p>Также я занимаюсь профессиональной тратой денег</p>
 
     </section>
 
-    <section id="contact">
+    <section id="price">
+        <img src="https://yastatic.net/naydex/yandex-search/2cAT02V58/y8c043LW5i_/KUWAkh1tFHTycwoTx5C62p1NkPtqfE-EwRERQilTEcGl4qExNF64rAhofUJwEqtlYrcw504UYGZeFGJomNyMO6lW04LNqINg43baAMZS-91PisL7e7tbBgTX0FX4k8aApaO6K6nD5WKDJWJfbw8t8CH2cPXckbDpB4" alt="Цены">
+
+        <h2>Цены</h2>
+        <p>Есть такие услуги как:</p>
+        <p>1 секунда помощи в подготовке к ЕГЭ по информатике-1000$</p>
+        <p>1 занятие по 2 части профильная математика-2000$</p>
+        <p>К русскому принципиально не буду готовить ни за какие деньги</p>
+
+        
+
+    </section>
+
+    <section id="contacts">
         <h2>Контакты</h2>
         <img src="img/vk.png" alt="VK" class="socials">
         <img src="img/telegram.png" alt="TG" class="socials">
         <p>Со мной можно связаться в ВК @qioly</p>
     </section>
+
+
 
     <footer>
         <p>2025 Мой сайт.Все права защищены.</p>
