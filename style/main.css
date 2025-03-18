@@ -116,3 +116,15 @@ footer{
     display:block;
 }
 
+details {
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+
+
+
+}
+
+#otvet {
+    width: 160px;
+    height: auto;
+}
+
